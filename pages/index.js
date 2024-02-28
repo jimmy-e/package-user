@@ -1,5 +1,8 @@
 import Head from 'next/head';
+import { sayHello } from '@jimmy-e/package-test';
 import styles from '../styles/Home.module.css';
+
+sayHello('SUSAN');
 
 export default function Home() {
   return (
